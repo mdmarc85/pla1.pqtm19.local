@@ -98,14 +98,14 @@ Crearem un repositori Git dins el projecte.
 
 Una vegada fet el repositori Git dins el projecte local a Eclipse es tracta de vincular-lo amb el repositori local de GitHub.
 Posarem dins el repositori, qualsevol arxiu, no carpeta buida, perque detecti algo de contigut. (Important)
-Ara pujarem contigut al "cloud" de Github.
+Ara baixarem contigut del "cloud" de Github i farem la primera vinculació.
 Primer click dret sobre el projecte local anomenat **pla1.pqtm19.local** i al menu contextual opció team i després a l'opció Pull.
 Es mostra a la següent captura:
 ![Opció Pull](https://github.com/mdmarc85/pla1.pqtm19.local/blob/master/media/8.png?raw=true)
 
 Quan ho fem, ens demanarà l'adreça del nostre repositori de github (una url que es el nom d'usuari de GitHub / el nom del repositori) i també que ens identifiquem amb el nom d'usuari i contrasenya.
 
-Després farem el mateix, menu contextual, opció team, pero aquesta vegada opció Push Branch 'master'.
+Després farem el mateix, menu contextual, opció team, pero aquesta vegada opció Push Branch 'master', i pujarem contigut.
 Com podem veure aquí:
 ![Opció Push](https://github.com/mdmarc85/pla1.pqtm19.local/blob/master/media/88.png?raw=true)
 
