@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import("reset.css");
+
+#hijo2 {
+	position: relative;
+}
+#box {
+	background-color:#eeee;
+	height: 400px;
+}
+
+#box div {
+	background-color: #ff4466;
+	height: 200px;
+	margin: 5px;	
+}
