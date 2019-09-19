@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@import ("reset.css");
+
+#calculadora {
+	position:relative;
+	border: solid black;
+	margin: 10vh 10vw;
+	background-image: linear-gradient(silver, gray, silver, silver, gray, silver);
+	width: 800px;
+	height: 600px;
+}
+
+#Pantalla {
+	background-color: black;
+	border: solid black;
+	border-radius: 10px 10px 10px 10px;
+	widht: 550px;
+	height: 60px; 
+	margin: 5px 5px 5px 5px;
+}
+
+div>ul {
+	width: 50px;
+	height: 50px;
+}

@@ -1,2 +1,64 @@
 @charset "UTF-8";
-@import url("reset.css");
+@import ("reset.css");
+
+#fons {
+	background-image: url("../img/ex6-mario.png");
+	width: 800px;
+	height: 400px;
+	margin: 100px auto;
+	position: relative;
+}
+
+
+.doraemon {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+    background-image: url("../media/ex6-doraemon.png");
+}
+
+#doraemon1 {
+	top: 80px;
+	left: 350px;
+	background-position: -450px -450px;
+	}
+
+#doraemon2 {
+	top: 200px;
+	left: 180px;
+	background-position: 0px -450px;
+	animation-name: example2;
+	animation: 5s;
+}
+
+#doraemon3 {
+	top: 250px;
+	left: 600px;
+	background-position: -150px -150px;
+}
+
+#doraemon4 {
+	top: 120px;
+	left: 760px;
+	background-position: -300px -450px;
+}
+
+
+
+#doraemon1:hover {
+  background-position: -300px -450px;
+  animation-name: example1;
+  animation-duration: 4s;
+}
+
+
+@keyframes example1 {
+  from {background-position: -450px -450px}
+  to {background-position: -300px -450px;}
+}
+
+
+@keyframes example2 {
+  from {top: 290px; left: 380px;}
+  to {background-position: top: 180px; left: 960px;}
+}
